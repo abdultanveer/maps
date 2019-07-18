@@ -22,4 +22,17 @@
         android:layout_marginStart="10dp"
         android:textIsSelectable="true"
         android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickHandler"
+        android:text="Getaddress" />
+
+    <TextView
+        android:id="@+id/textViewPostaladdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="postal address" />
 </LinearLayout>
